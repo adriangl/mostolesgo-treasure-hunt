@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "publish-to-pages": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "skillPath": "skills/publish-to-pages/SKILL.md",
+      "computedHash": "2ff8e5ae1ce51c04c3817dfc3107c9626d09276a66289b2ca9f88041192764be"
+    },
+    "vite-react-best-practices": {
+      "source": "claudiocebpaz/vite-react-best-practices",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "a794ed0d96ddb1f0567884e7ceaa961dba607bb7dac136888b66eedec395db29"
+    }
+  }
+}

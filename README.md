@@ -15,6 +15,10 @@ The site has four routes: `/` (home), `/missions`, `/rules`, and `/tools`. The r
 
 Production hosts must serve `dist/index.html` for requests to `/missions`, `/rules`, and `/tools` so direct links and refreshes work. `public/_redirects` supplies that rewrite on Cloudflare Pages; configure an equivalent fallback on other hosts.
 
+## GitHub Pages deployment
+
+`.github/workflows/deploy-pages.yml` builds and deploys the site on pushes to `master`. You can also run **Deploy to GitHub Pages** from the repository's Actions tab using **Run workflow** on `master`. The workflow sets Vite's project base path from the repository name and copies `index.html` to `404.html` so direct links to the React Router pages can load on GitHub Pages. The expected URL is `https://adriangl.github.io/mostolesgo-treasure-hunt/`.
+
 ## Edit this or create another hunt
 
 All event-specific content is in [`src/data/hunt.json`](src/data/hunt.json): event details, days, missions, point values, filters, rules, and search notes. The page renders however many days and missions are listed there, and calculates totals from the mission points.

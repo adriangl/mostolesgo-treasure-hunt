@@ -5,6 +5,7 @@ export interface Mission {
   points: number
   searchFilter: string | null
   verification?: string
+  meetupUrl?: string
 }
 
 export interface HuntDay {

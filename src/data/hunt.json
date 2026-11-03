@@ -16,7 +16,7 @@
       "theme": "ACERO",
       "deadline": "11:30",
       "missions": [
-        { "id": "check-in", "title": "¡Preséntate a la expedición!", "objective": "Realiza el check-in en la quedada de Campfire.", "points": 2, "searchFilter": null, "verification": "Verificación en Campfire" },
+        { "id": "check-in", "title": "¡Preséntate a la expedición!", "objective": "Realiza el check-in en la quedada de Campfire.", "points": 2, "searchFilter": null, "verification": "Verificación en Campfire", "meetupUrl": "https://cmpf.re/l4aU79" },
         { "id": "coleccionista-generaciones", "title": "Coleccionista de generaciones", "objective": "Captura 4 Pokémon de especies y generaciones diferentes.", "points": 4, "searchFilter": "edad0&!intercambiados&!purificado" },
         { "id": "cazador-formidables", "title": "Cazador de formidables", "objective": "Captura 2 Pokémon formidables de especies diferentes.", "points": 6, "searchFilter": "edad0&!intercambiados&!purificado" },
         { "id": "gigante-inesperado", "title": "Un gigante inesperado", "objective": "Captura un XXS o XXL que no sea formidable.", "points": 5, "searchFilter": "edad0&xxs,xxl&!intercambiados&!purificado" },
@@ -36,7 +36,7 @@
       "theme": "DRAGÓN",
       "deadline": "12:00",
       "missions": [
-        { "id": "check-in", "title": "¡Preséntate a la expedición!", "objective": "Realiza el check-in en la quedada de Campfire.", "points": 2, "searchFilter": null, "verification": "Verificación en Campfire" },
+        { "id": "check-in", "title": "¡Preséntate a la expedición!", "objective": "Realiza el check-in en la quedada de Campfire.", "points": 2, "searchFilter": null, "verification": "Verificación en Campfire", "meetupUrl": "https://cmpf.re/TMa2dT" },
         { "id": "mosaico-elemental", "title": "El mosaico elemental", "objective": "Captura 4 especies diferentes que reúnan al menos 6 tipos distintos.", "points": 5, "searchFilter": "edad0&!intercambiados&!purificado" },
         { "id": "coleccionista-generaciones", "title": "Coleccionista de generaciones", "objective": "Captura 5 Pokémon de especies y generaciones diferentes.", "points": 3, "searchFilter": "edad0&!intercambiados&!purificado" },
         { "id": "cazador-formidables", "title": "Cazador de formidables", "objective": "Captura 2 Pokémon formidables de especies diferentes.", "points": 6, "searchFilter": "edad0&!intercambiados&!purificado" },

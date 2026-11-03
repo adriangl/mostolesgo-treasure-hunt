@@ -27,6 +27,7 @@ All event-specific content is in [`src/data/hunt.json`](src/data/hunt.json): eve
 - Keep day IDs unique within the hunt and mission IDs unique within each day.
 - If you change a mission's meaning, change its ID too; otherwise an existing local checkmark will still apply.
 - Set `searchFilter` to `null` for a mission without a Pokémon GO filter. You can then supply a `verification` label.
+- Add an optional `meetupUrl` to a check-in mission to show a direct Campfire link in its card.
 - Keep filters exactly as players should paste them into Pokémon GO. The copy button copies the JSON string without modification.
 
 Progress is browser-local and self-reported. It is not official verification or a shared leaderboard. See [`SPEC.md`](SPEC.md) for the full product specification.

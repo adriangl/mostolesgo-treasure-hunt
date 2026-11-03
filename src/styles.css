@@ -39,6 +39,8 @@ h1,h2,h3,p{margin-top:0}.hero h1{font-size:clamp(60px,8vw,112px);line-height:.98
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
 
 /* Separate page navigation and introductions */
+.mission-meetup-link{display:inline-block;margin-top:12px;min-height:44px;padding:12px 0;color:#fbd95b;font-size:14px;font-weight:700;line-height:1.4;text-decoration:underline;text-underline-offset:4px}
+.mission-meetup-link:hover{color:#ffa319}
 .main-nav a[aria-current="page"]{color:#fbd95b;text-decoration:underline;text-underline-offset:8px;text-decoration-thickness:2px}
 .section-heading h1,.guide-heading h1{font-size:clamp(42px,5vw,70px);line-height:1.04;letter-spacing:-.055em;margin:0;font-weight:900}
 .section-heading h1 span,.guide-heading h1 span{color:#fbd95b}

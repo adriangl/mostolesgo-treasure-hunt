@@ -39,6 +39,11 @@ export function MissionCard({ mission, index, dayId, completed, onToggle, onCopy
         ) : (
           <div className="verification-note"><span className="verification-dot" />{mission.verification ?? 'Verificación presencial'}</div>
         )}
+        {mission.meetupUrl && (
+          <a className="mission-meetup-link" href={mission.meetupUrl} target="_blank" rel="noopener noreferrer">
+            Unirse a la quedada en Campfire <span aria-hidden="true">↗</span>
+          </a>
+        )}
       </div>
       <label className="mission-toggle">
         <input type="checkbox" checked={completed} onChange={onToggle} aria-label={`Marcar ${mission.title} como completada`} />

@@ -1,0 +1,74 @@
+{
+  "id": "mostoles-go-area-silvestre-2026",
+  "organizer": "Móstoles GO",
+  "name": "Caza de Recompensas",
+  "event": "Área Silvestre Global 2026",
+  "dates": "14 y 15 de noviembre de 2026",
+  "location": "Móstoles",
+  "intro": "Dos días, dos desafíos y una ciudad llena de hallazgos. Completa las misiones, lleva tus capturas a la comprobación presencial y sigue tu progreso a tu ritmo.",
+  "baseFilter": "edad0&!intercambiados&!purificado",
+  "days": [
+    {
+      "id": "sabado-14",
+      "shortLabel": "Sábado 14",
+      "dateLabel": "14 NOV · SÁBADO",
+      "title": "El desafío del Acero",
+      "theme": "ACERO",
+      "deadline": "11:30",
+      "missions": [
+        { "id": "check-in", "title": "¡Preséntate a la expedición!", "objective": "Realiza el check-in en la quedada de Campfire.", "points": 2, "searchFilter": null, "verification": "Verificación en Campfire" },
+        { "id": "coleccionista-generaciones", "title": "Coleccionista de generaciones", "objective": "Captura 4 Pokémon de especies y generaciones diferentes.", "points": 4, "searchFilter": "edad0&!intercambiados&!purificado" },
+        { "id": "cazador-formidables", "title": "Cazador de formidables", "objective": "Captura 2 Pokémon formidables de especies diferentes.", "points": 6, "searchFilter": "edad0&!intercambiados&!purificado" },
+        { "id": "gigante-inesperado", "title": "Un gigante inesperado", "objective": "Captura un XXS o XXL que no sea formidable.", "points": 5, "searchFilter": "edad0&xxs,xxl&!intercambiados&!purificado" },
+        { "id": "elegancia-combate", "title": "Elegancia de combate", "objective": "Captura un Machamp con chaqueta moderna en incursión.", "points": 4, "searchFilter": "edad0&machamp&disfraz&incursión&!intercambiados&!purificado" },
+        { "id": "dos-leyendas", "title": "Las dos leyendas", "objective": "Captura Zekrom y Kyurem en incursiones.", "points": 4, "searchFilter": "edad0&zekrom,kyurem&incursión&!intercambiados&!purificado" },
+        { "id": "senor-tiempo", "title": "El señor del tiempo", "objective": "Captura un Dialga Dinamax en un Combate Max.", "points": 5, "searchFilter": "edad0&dialga&dinamax&!intercambiados&!purificado" },
+        { "id": "gigante-acero", "title": "El gigante de acero", "objective": "Captura un Duraludon Gigamax en un Combate Max.", "points": 4, "searchFilter": "edad0&duraludon&gigamax&!intercambiados&!purificado" },
+        { "id": "recuerdo-especial", "title": "Un recuerdo especial", "objective": "Consigue un Pokémon con el fondo especial del Área Silvestre Global 2026 en incursión o Combate Max.", "points": 7, "searchFilter": "edad0&fondoespecial&incursión,dinamax,gigamax&!intercambiados&!purificado" },
+        { "id": "premio-gordo", "title": "El premio gordo", "objective": "Captura un variocolor de incursión o Combate Max.", "points": 9, "searchFilter": "edad0&variocolor&dinamax,gigamax,incursión&!intercambiados&!purificado" }
+      ]
+    },
+    {
+      "id": "domingo-15",
+      "shortLabel": "Domingo 15",
+      "dateLabel": "15 NOV · DOMINGO",
+      "title": "El desafío del Dragón",
+      "theme": "DRAGÓN",
+      "deadline": "12:00",
+      "missions": [
+        { "id": "check-in", "title": "¡Preséntate a la expedición!", "objective": "Realiza el check-in en la quedada de Campfire.", "points": 2, "searchFilter": null, "verification": "Verificación en Campfire" },
+        { "id": "mosaico-elemental", "title": "El mosaico elemental", "objective": "Captura 4 especies diferentes que reúnan al menos 6 tipos distintos.", "points": 5, "searchFilter": "edad0&!intercambiados&!purificado" },
+        { "id": "coleccionista-generaciones", "title": "Coleccionista de generaciones", "objective": "Captura 5 Pokémon de especies y generaciones diferentes.", "points": 3, "searchFilter": "edad0&!intercambiados&!purificado" },
+        { "id": "cazador-formidables", "title": "Cazador de formidables", "objective": "Captura 2 Pokémon formidables de especies diferentes.", "points": 6, "searchFilter": "edad0&!intercambiados&!purificado" },
+        { "id": "gigante-inesperado", "title": "Un gigante inesperado", "objective": "Captura un XXS o XXL que no sea formidable.", "points": 5, "searchFilter": "edad0&xxs,xxl&!intercambiados&!purificado" },
+        { "id": "dos-leyendas", "title": "Las dos leyendas", "objective": "Captura Reshiram y Kyurem en incursiones.", "points": 4, "searchFilter": "edad0&reshiram,kyurem&incursión&!intercambiados&!purificado" },
+        { "id": "senor-espacio", "title": "El señor del espacio", "objective": "Captura un Palkia Dinamax en un Combate Max.", "points": 5, "searchFilter": "edad0&palkia&dinamax&!intercambiados&!purificado" },
+        { "id": "gigante-acero", "title": "El gigante de acero", "objective": "Captura un Duraludon Gigamax en un Combate Max.", "points": 4, "searchFilter": "edad0&duraludon&gigamax&!intercambiados&!purificado" },
+        { "id": "recuerdo-especial", "title": "Un recuerdo especial", "objective": "Consigue un Pokémon con el fondo especial del Área Silvestre Global 2026 en incursión o Combate Max.", "points": 7, "searchFilter": "edad0&fondoespecial&incursión,dinamax,gigamax&!intercambiados&!purificado" },
+        { "id": "premio-gordo", "title": "El premio gordo", "objective": "Captura un variocolor de incursión o Combate Max.", "points": 9, "searchFilter": "edad0&variocolor&dinamax,gigamax,incursión&!intercambiados&!purificado" }
+      ]
+    }
+  ],
+  "rules": [
+    { "title": "Check-in obligatorio", "body": "Haz el check-in en la quedada de Campfire correspondiente. Sin check-in, no puedes optar al merchandising oficial." },
+    { "title": "Capturas del día", "body": "Solo cuentan Pokémon capturados personalmente en el día correspondiente y presentados antes del cierre de la competición. Se admiten capturas anteriores al inicio de la quedada si son de ese mismo día." },
+    { "title": "Sin modificaciones posteriores", "body": "No se admiten Pokémon recibidos por intercambio, ni evolucionados o purificados después de capturarlos." },
+    { "title": "Una vez por misión", "body": "Cada misión puntúa una sola vez. Un mismo Pokémon puede acreditar varias misiones." },
+    { "title": "Conserva tus ejemplares", "body": "Debes conservar los Pokémon para la verificación presencial, incluida la fecha de captura y la procedencia cuando corresponda." },
+    { "title": "Fondo especial válido", "body": "Para la misión de fondo solo vale el del Área Silvestre Global 2026; no el de «Hacia lo Silvestre» ni el obtenido mediante investigación de pago." }
+  ],
+  "tieBreakers": [
+    "Mayor número de misiones completadas.",
+    "Mayor número de variocolor capturados personalmente ese día, de cualquier procedencia, y conservados para verificación.",
+    "Pregunta de conocimiento Pokémon."
+  ],
+  "searchNotes": [
+    "edad0 muestra las últimas 24 horas, no el día natural. Comprueba la fecha de captura en cada ficha.",
+    "& combina condiciones (Y); la coma permite alternativas (O).",
+    "Los formidables no tienen un filtro exclusivo: deben identificarse manualmente.",
+    "En colecciones, comprueba manualmente las especies, generaciones y tipos.",
+    "fondoespecial no distingue qué evento concedió el fondo: compruébalo visualmente.",
+    "En incursiones y Combates Max, verifica procedencia y modalidad en la ficha.",
+    "Ningún filtro acredita por sí solo que un Pokémon no haya evolucionado desde su captura."
+  ]
+}

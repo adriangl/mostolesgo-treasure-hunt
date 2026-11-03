@@ -39,8 +39,13 @@ jobs:
         env:
           PAGES_BASE_PATH: /${{ github.event.repository.name }}/
 
-      - name: Add fallback for direct page links
-        run: cp dist/index.html dist/404.html
+      - name: Prepare direct page links
+        run: |
+          mkdir -p dist/missions dist/rules dist/tools
+          cp dist/index.html dist/missions/index.html
+          cp dist/index.html dist/rules/index.html
+          cp dist/index.html dist/tools/index.html
+          cp dist/index.html dist/404.html
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6

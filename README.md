@@ -17,7 +17,7 @@ Production hosts must serve `dist/index.html` for requests to `/missions`, `/rul
 
 ## GitHub Pages deployment
 
-`.github/workflows/deploy-pages.yml` builds and deploys the site on pushes to `master`. You can also run **Deploy to GitHub Pages** from the repository's Actions tab using **Run workflow** on `master`. The workflow sets Vite's project base path from the repository name and copies `index.html` to `404.html` so direct links to the React Router pages can load on GitHub Pages. The expected URL is `https://adriangl.github.io/mostolesgo-treasure-hunt/`.
+`.github/workflows/deploy-pages.yml` builds and deploys the site on pushes to `master`. You can also run **Deploy to GitHub Pages** from the repository's Actions tab using **Run workflow** on `master`. The workflow sets Vite's project base path from the repository name, writes an `index.html` for each route, and adds a `404.html` fallback. The expected URL is `https://adriangl.github.io/mostolesgo-treasure-hunt/`.
 
 ## Edit this or create another hunt
 

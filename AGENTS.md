@@ -11,7 +11,7 @@ Read `SPEC.md` for behavior and acceptance criteria, `DESIGN.md` for the visual 
 - Use the standard Vite layout: root `index.html`, React and TypeScript source under `src/`, and static assets under `public/`.
 - Routes are `/`, `/missions`, `/rules`, and `/tools`. URLs are English; visitor-facing labels and copy are Spanish. Page components live in `src/pages/`; shared UI lives in `src/components/`.
 - React Router loads pages from `src/router.tsx`. A production host must serve `dist/index.html` for direct requests to the three subroutes. `public/_redirects` supplies the rewrite on Cloudflare Pages.
-- GitHub Pages deployment runs from `.github/workflows/deploy-pages.yml` on pushes to `master` or a manual workflow dispatch. The workflow sets `PAGES_BASE_PATH` for Vite and creates a `404.html` fallback for direct route loads.
+- GitHub Pages deployment runs from `.github/workflows/deploy-pages.yml` on pushes to `master` or a manual workflow dispatch. The workflow sets `PAGES_BASE_PATH` for Vite, writes route entry files, and creates a `404.html` fallback.
 - Keep `dist/` and `node_modules/` generated and untracked.
 
 ## Hunt data and player progress

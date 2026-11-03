@@ -32,8 +32,3 @@ export interface Hunt {
   tieBreakers: string[]
   searchNotes: string[]
 }
-
-export interface Progress {
-  selectedDayId: string
-  completedByDay: Record<string, string[]>
-}

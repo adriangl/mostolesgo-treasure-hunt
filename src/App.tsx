@@ -13,6 +13,10 @@ const pageMetadata: Record<string, { title: string; description: string }> = {
     title: 'Misiones · Caza de Recompensas · Móstoles GO',
     description: 'Consulta las misiones del sábado y domingo y sigue tu progreso.',
   },
+  '/leaderboard': {
+    title: 'Clasificación · Caza de Recompensas · Móstoles GO',
+    description: 'Consulta la clasificación de cada día.',
+  },
   '/rules': {
     title: 'Reglas · Caza de Recompensas · Móstoles GO',
     description: 'Lee las reglas, la verificación presencial y los desempates.',
@@ -44,6 +48,7 @@ function App() {
         <nav className="main-nav" aria-label="Navegación principal">
           <NavLink to="/" end>Inicio</NavLink>
           <NavLink to="/missions">Misiones</NavLink>
+          <NavLink to="/leaderboard">Clasificación</NavLink>
           <NavLink to="/rules">Reglas</NavLink>
           <NavLink to="/tools">Herramientas</NavLink>
         </nav>
@@ -54,7 +59,7 @@ function App() {
         <Outlet />
       </main>
 
-      <footer className="site-footer"><div className="footer-inner"><div className="footer-brand"><span className="brand-mark"><CompassMark /></span><div><strong>{hunt.name}</strong><span>{hunt.organizer} · {hunt.event} · v{packageInfo.version}</span></div></div><p>Tu progreso se guarda solo en este navegador. La verificación oficial se realiza en persona.</p><a href="#inicio">Volver arriba ↑</a></div></footer>
+      <footer className="site-footer"><div className="footer-inner"><div className="footer-brand"><span className="brand-mark"><CompassMark /></span><div><strong>{hunt.name}</strong><span>{hunt.organizer} · {hunt.event} · v{packageInfo.version}</span></div></div><p>La verificación oficial se realiza en persona.</p><a href="#inicio">Volver arriba ↑</a></div></footer>
     </>
   )
 }

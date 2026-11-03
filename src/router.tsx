@@ -8,6 +8,7 @@ export const router = createBrowserRouter([
     children: [
       { index: true, lazy: async () => ({ Component: (await import('./pages/HomePage')).default }) },
       { path: 'missions', lazy: async () => ({ Component: (await import('./pages/MissionsPage')).default }) },
+      { path: 'leaderboard', lazy: async () => ({ Component: (await import('./pages/LeaderboardPage')).default }) },
       { path: 'rules', lazy: async () => ({ Component: (await import('./pages/RulesPage')).default }) },
       { path: 'tools', lazy: async () => ({ Component: (await import('./pages/ToolsPage')).default }) },
     ],

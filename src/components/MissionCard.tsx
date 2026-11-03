@@ -7,12 +7,13 @@ interface MissionCardProps {
   index: number
   dayId: string
   completed: boolean
+  disabled: boolean
   onToggle: () => void
   onCopy: () => void
   copyState: CopyState
 }
 
-export function MissionCard({ mission, index, dayId, completed, onToggle, onCopy, copyState }: MissionCardProps) {
+export function MissionCard({ mission, index, dayId, completed, disabled, onToggle, onCopy, copyState }: MissionCardProps) {
   const missionKey = `${dayId}:${mission.id}`
   const currentCopyState = copyState?.key === missionKey ? copyState.kind : null
 
@@ -46,7 +47,7 @@ export function MissionCard({ mission, index, dayId, completed, onToggle, onCopy
         )}
       </div>
       <label className="mission-toggle">
-        <input type="checkbox" checked={completed} onChange={onToggle} aria-label={`Marcar ${mission.title} como completada`} />
+        <input type="checkbox" checked={completed} disabled={disabled} onChange={onToggle} aria-label={completed ? `Quitar ${mission.title} de completadas` : `Marcar ${mission.title} como completada`} />
         <span className="mission-toggle-text">{completed ? 'Hecha' : 'Marcar'}</span>
       </label>
     </article>

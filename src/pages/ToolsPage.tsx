@@ -7,7 +7,7 @@ function ToolsPage() {
 
   return (
     <section className="guide-section section-shell" id="guia" aria-labelledby="guide-title">
-      <div className="guide-heading"><p className="section-kicker">03 / HERRAMIENTAS</p><h1 id="guide-title">Busca mejor.<br /><span>Comprueba siempre.</span></h1><p>Los filtros te ayudan a localizar candidatos en Pokémon GO. La ficha de cada ejemplar es la que permite confirmar los detalles.</p></div>
+      <div className="guide-heading"><p className="section-kicker">05 / HERRAMIENTAS</p><h1 id="guide-title">Busca mejor.<br /><span>Comprueba siempre.</span></h1><p>Los filtros te ayudan a localizar candidatos en Pokémon GO. La ficha de cada ejemplar es la que permite confirmar los detalles.</p></div>
       <div className="guide-layout">
         <div className="guide-feature">
           <div className="guide-feature-top"><span>FILTRO BASE</span><span aria-hidden="true">↗</span></div>

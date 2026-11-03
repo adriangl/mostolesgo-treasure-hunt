@@ -35,14 +35,20 @@ jobs:
         run: npm ci
 
       - name: Build site
-        run: npm run build
+        run: |
+          test -n "$VITE_SUPABASE_URL"
+          test -n "$VITE_SUPABASE_PUBLISHABLE_KEY"
+          npm run build
         env:
           PAGES_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.VITE_SUPABASE_PUBLISHABLE_KEY }}
 
       - name: Prepare direct page links
         run: |
-          mkdir -p dist/missions dist/rules dist/tools
+          mkdir -p dist/missions dist/leaderboard dist/rules dist/tools
           cp dist/index.html dist/missions/index.html
+          cp dist/index.html dist/leaderboard/index.html
           cp dist/index.html dist/rules/index.html
           cp dist/index.html dist/tools/index.html
           cp dist/index.html dist/404.html

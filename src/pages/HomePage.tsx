@@ -37,11 +37,12 @@ function HomePage() {
       </section>
 
       <section className="home-paths section-shell" aria-labelledby="paths-title">
-        <div className="section-heading"><div><p className="section-kicker">01 / TU EXPEDICIÓN</p><h2 id="paths-title">Prepara tu<br /><span>recorrido.</span></h2></div><p>Consulta los retos, ten claras las reglas y lleva tus filtros a mano durante la búsqueda.</p></div>
+        <div className="section-heading"><div><p className="section-kicker">01 / TU EXPEDICIÓN</p><h2 id="paths-title">Prepara tu<br /><span>recorrido.</span></h2></div><p>Consulta los retos y la clasificación, ten claras las reglas y lleva tus filtros a mano.</p></div>
         <div className="path-grid">
-          <Link className="path-card" to="/missions"><span className="path-number">01 / DESAFÍOS</span><span className="path-title">Las misiones</span><span className="path-description">Explora cada día, marca tus capturas y sigue tu puntuación.</span><span className="path-arrow"><ArrowIcon /></span></Link>
-          <Link className="path-card" to="/rules"><span className="path-number">02 / VERIFICACIÓN</span><span className="path-title">Las reglas</span><span className="path-description">Descubre qué cuenta, qué conservar y cómo se resuelven los empates.</span><span className="path-arrow"><ArrowIcon /></span></Link>
-          <Link className="path-card" to="/tools"><span className="path-number">03 / BÚSQUEDA</span><span className="path-title">Herramientas</span><span className="path-description">Copia filtros y revisa los detalles que debes comprobar en el juego.</span><span className="path-arrow"><ArrowIcon /></span></Link>
+          <Link className="path-card" to="/missions"><span className="path-number">02 / DESAFÍOS</span><span className="path-title">Las misiones</span><span className="path-description">Explora cada día, marca tus capturas y sigue tu puntuación.</span><span className="path-arrow"><ArrowIcon /></span></Link>
+          <Link className="path-card" to="/leaderboard"><span className="path-number">03 / PUNTOS</span><span className="path-title">La clasificación</span><span className="path-description">Consulta la clasificación de cada día.</span><span className="path-arrow"><ArrowIcon /></span></Link>
+          <Link className="path-card" to="/rules"><span className="path-number">04 / VERIFICACIÓN</span><span className="path-title">Las reglas</span><span className="path-description">Descubre qué cuenta, qué conservar y cómo se resuelven los empates.</span><span className="path-arrow"><ArrowIcon /></span></Link>
+          <Link className="path-card" to="/tools"><span className="path-number">05 / BÚSQUEDA</span><span className="path-title">Herramientas</span><span className="path-description">Copia filtros y revisa los detalles que debes comprobar en el juego.</span><span className="path-arrow"><ArrowIcon /></span></Link>
         </div>
       </section>
     </>
